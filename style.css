@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: #005f73;
+  margin: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell {
+  background-color: #98f5e1;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 10px;
+}
